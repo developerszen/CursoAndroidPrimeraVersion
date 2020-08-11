@@ -3,11 +3,10 @@ package com.zentechnology.layouts
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class LinearLayoutActivity : AppCompatActivity() {
+class TableLayoutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_linear_layout)
-
+        setContentView(R.layout.activity_table_layout)
     }
 }

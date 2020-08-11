@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Layouts</string>
+
+    <string-array name="lista_estado_civil">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+    </string-array>
+
+    <string-array name="lista_empresas">
+        <item>Empresa 1</item>
+        <item>Empresa 2</item>
+        <item>Empresa 3</item>
+    </string-array>
+
 </resources>

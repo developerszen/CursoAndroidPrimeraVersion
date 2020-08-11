@@ -6,12 +6,12 @@
     android:padding="48dp">
 
     <TextView
-        android:id="@+id/txtConectar"
+        android:id="@+id/txtLogin"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
-        android:text="Conectar" />
+        android:text="Login" />
 
     <EditText
         android:id="@+id/etCorreo"

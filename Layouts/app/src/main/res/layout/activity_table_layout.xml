@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutActivity"
+    android:stretchColumns="1"
+    android:padding="16dp">
+
+    <TableRow android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Producto"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="Subtotal"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Sanitizador de manos" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="25 Bs" />
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:layout_column="0"
+        android:padding="3dp"
+        android:text="Alcohol en gel" />
+
+    <TextView
+        android:layout_column="2"
+        android:gravity="left"
+        android:padding="3dp"
+        android:text="25 Bs" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Atomisador" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="10 Bs" />
+
+    </TableRow>
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0909"
+        />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="Subtotal"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:text="60 Bs" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="Costo de envio"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:text="15 Bs" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="Total"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:paddingLeft="10dp"
+            android:gravity="left"
+            android:text="75 Bs" />
+    </TableRow>
+
+
+
+</TableLayout>
