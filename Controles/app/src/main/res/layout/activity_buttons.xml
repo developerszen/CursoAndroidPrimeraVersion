@@ -41,7 +41,7 @@
         android:layout_centerHorizontal="true"
         android:text="Imagen Con icono"
 
-        android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+        android:drawableLeft="@drawable/ic_android_24px"
         />
 
 </RelativeLayout>

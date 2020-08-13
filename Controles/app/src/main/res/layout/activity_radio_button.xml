@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".RadioButtonActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/opciones_genero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Masculino" />
+
+            <RadioButton
+                android:id="@+id/radio_femenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Femenino" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvOpcionesPago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opciones de pago:"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgEjercicio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvOpcionesPago">
+            <RadioButton
+                android:id="@+id/radio_deposito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Deposito Directo" />
+
+            <RadioButton
+                android:id="@+id/radio_paypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Paypal" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rgEjercicio2"
+            android:layout_centerHorizontal="true"
+            android:onClick="comprobarModoPago"
+            android:text="Procesar" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Que dias puedes salir en cuarentena?"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/radio_dias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <RadioButton
+                android:id="@+id/opcion_lunes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunes" />
+            <RadioButton
+                android:id="@+id/opcion_martes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Martes" />
+            <RadioButton
+                android:id="@+id/opcion_miercoles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miercoles" />
+            <RadioButton
+                android:id="@+id/opcion_jueves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jueves" />
+            <RadioButton
+                android:id="@+id/opcion_viernes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viernes" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
