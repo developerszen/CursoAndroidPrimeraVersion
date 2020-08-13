@@ -1,162 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GridLayoutActivity"
-    android:alignmentMode="alignBounds"
-    android:columnCount="4"
-    android:rowCount="4">
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/numero_7"
-        android:layout_column="0"
-        android:layout_row="0"
-        android:onClick="btnNumero7"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:text="7" />
+        android:id="@+id/pantalla"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="RESULTADO"/>
 
-    <TextView
-        android:id="@+id/numero_8"
-        android:layout_column="1"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="0"
-        android:onClick="btnNumero8"
-        android:text="8" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignBounds"
+        android:columnCount="4"
+        android:rowCount="5"
+        tools:context=".GridLayoutActivity">
 
+        <TextView
+            android:id="@+id/numero_7"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="btnNumero7"
+            android:text="7" />
 
-    <TextView
-        android:id="@+id/numero_9"
-        android:layout_column="2"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="0"
-        android:onClick="btnNumero9"
-        android:text="9" />
-
-
-    <TextView
-        android:id="@+id/numero_4"
-        android:layout_column="0"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="1"
-        android:onClick="btnNumero4"
-        android:text="4" />
-
-    <TextView
-        android:id="@+id/numero_5"
-        android:layout_column="1"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="1"
-        android:onClick="btnNumero5"
-        android:text="5" />
-
-    <TextView
-        android:id="@+id/numero_6"
-        android:layout_column="2"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="1"
-        android:onClick="btnNumero6"
-        android:text="6" />
+        <TextView
+            android:id="@+id/numero_8"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick="btnNumero8"
+            android:text="8" />
 
 
-    <TextView
-        android:id="@+id/numero_1"
-        android:layout_column="0"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="2"
-        android:onClick="btnNumero1"
-        android:text="1" />
+        <TextView
+            android:id="@+id/numero_9"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="btnNumero9"
+            android:text="9" />
 
 
-    <TextView
-        android:id="@+id/numero_2"
-        android:layout_column="1"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="2"
-        android:onClick="btnNumero2"
-        android:text="2" />
+        <TextView
+            android:id="@+id/numero_4"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="btnNumero4"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/numero_5"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick="btnNumero5"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/numero_6"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:onClick="btnNumero6"
+            android:text="6" />
 
 
-    <TextView
-        android:id="@+id/numero_3"
-        android:layout_column="2"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="2"
-        android:onClick="btnNumero3"
-        android:text="3" />
+        <TextView
+            android:id="@+id/numero_1"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:onClick="btnNumero1"
+            android:text="1" />
 
 
-    <TextView
-        android:id="@+id/signo_punto"
-        android:layout_column="0"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="3"
-        android:layout_gravity="fill_horizontal"
-        android:text="." />
-
-    <TextView
-        android:id="@+id/numero_cero"
-        android:layout_column="1"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="3"
-        android:onClick="btnNumero0"
-        android:text="0" />
+        <TextView
+            android:id="@+id/numero_2"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:onClick="btnNumero2"
+            android:text="2" />
 
 
-    <TextView
-        android:id="@+id/signo_igual"
-        android:layout_column="2"
-        style="@style/AppTheme.BotonCalculadora.Azul"
-        android:layout_row="3"
-        android:onClick="btnSignoIgual"
-        android:text="=" />
+        <TextView
+            android:id="@+id/numero_3"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:onClick="btnNumero3"
+            android:text="3" />
 
 
+        <TextView
+            android:id="@+id/signo_punto"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:onClick="btnSignoPunto"
+            android:text="." />
 
-    <TextView
-        android:id="@+id/signo_division"
-        android:layout_column="3"
-        android:layout_row="0"
-        style="@style/AppTheme.BotonCalculadora.Rojo"
-        android:layout_gravity="fill"
-        android:onClick="btnSignoDivision"
-        android:text="%" />
-
-    <TextView
-        android:id="@+id/signo_por"
-        android:layout_column="3"
-        android:layout_row="1"
-        style="@style/AppTheme.BotonCalculadora.Rojo"
-        android:layout_gravity="fill"
-        android:onClick="btnSignoPor"
-        android:text="x" />
+        <TextView
+            android:id="@+id/numero_cero"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:onClick="btnNumero0"
+            android:text="0" />
 
 
-    <TextView
-        android:id="@+id/signo_resta"
-        android:layout_column="3"
-        android:layout_row="2"
-        style="@style/AppTheme.BotonCalculadora.Rojo"
-        android:layout_gravity="fill"
-        android:onClick="btnSignoResta"
-        android:text="-" />
+        <TextView
+            android:id="@+id/signo_igual"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:onClick="btnSignoIgual"
+            android:text="=" />
 
 
-    <TextView
-        android:id="@+id/signo_suma"
-        android:layout_column="3"
-        android:layout_row="3"
-        android:onClick="btnSignoSuma"
-        style="@style/AppTheme.BotonCalculadora.Rojo"
-        android:layout_gravity="fill_horizontal"
-        android:text="+" />
+        <TextView
+            android:id="@+id/signo_division"
+            style="@style/AppTheme.BotonCalculadora.Rojo"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="fill"
+            android:onClick="btnSignoDivision"
+            android:text="%" />
+
+        <TextView
+            android:id="@+id/signo_por"
+            style="@style/AppTheme.BotonCalculadora.Rojo"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_gravity="fill"
+            android:onClick="btnSignoPor"
+            android:text="x" />
 
 
+        <TextView
+            android:id="@+id/signo_resta"
+            style="@style/AppTheme.BotonCalculadora.Rojo"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_gravity="fill"
+            android:onClick="btnSignoResta"
+            android:text="-" />
 
 
+        <TextView
+            android:id="@+id/signo_suma"
+            style="@style/AppTheme.BotonCalculadora.Rojo"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_gravity="fill_horizontal"
+            android:onClick="btnSignoSuma"
+            android:text="+" />
 
 
+    </GridLayout>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar"
+        android:onClick="btnLimpiar" />
 
-</GridLayout>
+</LinearLayout>
