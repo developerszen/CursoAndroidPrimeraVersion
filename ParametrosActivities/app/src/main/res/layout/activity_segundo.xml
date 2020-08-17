@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SegundoActivity">
+
+
+    <TextView
+        android:paddingTop="16dp"
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:text="Texto 2" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retornar"
+        android:onClick="retornar_click"
+        />
+</LinearLayout>
