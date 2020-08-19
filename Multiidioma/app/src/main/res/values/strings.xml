@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Multiidioma</string>
+
+    <string name="str_textview">Hola Mundo!</string>
+    <string name="str_button">Cambiar Lenguaje</string>
+
+    <string name="str_en">English</string>
+    <string name="str_es">Spanish</string>
+    <string name="str_pt">Portuguese</string>
+
+    <string-array name="languages" >
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+        <item>@string/str_pt</item>
+    </string-array>
+
+
+
+</resources>

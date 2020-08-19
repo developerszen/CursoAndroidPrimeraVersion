@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multiidioma</string>
+
+    <string name="str_textview">Ola mundo!</string>
+    <string name="str_button">Mudar idioma</string>
+
+    <string name="str_en">English</string>
+    <string name="str_es">Spanish</string>
+    <string name="str_pt">Portuguese</string>
+
+</resources>
