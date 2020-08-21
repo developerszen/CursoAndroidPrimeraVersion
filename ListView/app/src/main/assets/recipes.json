@@ -1,0 +1,104 @@
+{
+  "recipes": [
+    {
+      "title": "Pollos rellenos a la parrilla debajo de un ladrillo",
+      "image" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
+      "url": "http://www.delish.com/cooking/recipe-ideas/recipes/a11249/grilled-deviled-chickens-under-brick-mslo0510-recipe/",
+      "description": "Asar estos pollos con mucho peso los ayudará a cocinar de manera rápida y uniforme, dejándolos crujientes y jugosos.",
+      "servings": 4,
+      "dietLabel": "Bajo-Carb",
+      "ingredientLines" : [ "4 pollos o gallinas de Cornualles (de aproximadamente 1 1/4 libras cada uno), o 4 mitades de pechuga de pollo "," 3 limones, más gajos para decorar "," 4 dientes de ajo, pelados y aplastados "," 1 cucharada triturada hojuelas de pimiento rojo, o al gusto "," 1 cucharada de tomillo fresco finamente picado "," 1 cucharada de romero fresco finamente picado "," 1/2 taza de aceite de oliva "," Sal, al gusto" ]
+    },
+
+    {
+      "title": "Arroz Salteado con Salchicha China",
+      "image" : "https://www.edamam.com/web-img/341/3417c234dadb687c0d3a45345e86bff4.jpg",
+      "url": "http://www.seriouseats.com/recipes/2011/06/stir-fried-rice-with-chinese-sausage-recipe.html",
+      "description": "Si bien las rodajas de salchicha china son buenas en cualquier salteado, mi forma favorita de usarlas es en un plato de arroz o fideos, por lo que el alimento básico absorbe la grasa extraída de la salchicha. Utilizadas en el arroz frito, las salchichas imparten un rico sabor a cada grano.",
+      "servings": 4,
+      "dietLabel": "Balanceado",
+      "ingredientLines" : [ "2 o 3 latas de salchicha china, cortada en rodajas de 1/4 de pulgada "," 4 dientes de ajo, picados "," 4 tazas de arroz cocido frío "," 2 cucharadas de salsa de soja ligera "," 1/2 cucharadita de sal "," 1/4 de cucharadita de azúcar "," 1/4 de cucharadita de pimienta blanca "," Para decorar: "," Cebolla verde o cilantro finamente picados" ]
+    },
+
+    {
+      "title": "Receta de alitas de pollo con cinco especias",
+      "image" : "https://www.edamam.com/web-img/c7d/c7d9644d5e696ec0a99af1563d3f3fc3.jpg",
+      "url": "http://www.epicurious.com/recipes/food/views/Five-Spice-Chicken-Wings-109520",
+      "description": "El dulce calor del polvo chino de cinco especias puede no ser lo que normalmente se piensa en términos de alas incendiarias, y la piel crujiente proviene del estallido de un horno caliente en lugar de las salpicaduras de aceite caliente. Sin embargo, estamos bastante, bastante cautivados con ellos de todos modos. Wingdings para cenar.",
+      "servings": 4,
+      "dietLabel": "Bajo-Carb",
+      "ingredientLines" : [ "40 piezas de alitas de pollo, o 20 alitas de pollo enteras "," 2 cucharadas de polvo de cinco especias chinas "," 1 cucharada de pimienta de cayena "," Sal kosher y pimienta negra recién molida "," 1/3 a 1/2 taza fresca picada hojas de cilantro "," 1/4 taza de crema agria ligera o normal "," 1/4 taza de mayonesa "," 1/4 taza de yogur natural "," Jugo de 1/2 limón (¿o por qué no probar la lima?)" ]
+    },
+
+    {
+      "title": "Costillas de cerdo chinas",
+      "image" : "https://www.edamam.com/web-img/f06/f062a39915fe22cf47ddd21ce03e78db.jpg",
+      "url": "http://www.seriouseats.com/recipes/2009/07/grilling-chinese-style-spare-ribs-recipe.html",
+      "description": "Un favorito de la familia súper rápido: fabuloso para barbacoas.",
+      "servings": 4,
+      "dietLabel": "Medio-Carb",
+      "ingredientLines" : [ "1.0 cucharada de miel clara "," 1.0 cucharada de vinagre (puede usar sidra, malta o vino) "," 100.0 ml de salsa hoisin "," 2.0 cucharadas de salsa de soja "," 12 costillas de cerdo con carne "," 1.0 cucharadita de cinco especias chinas polvo" ]
+    },
+
+    {
+      "title": "Tortas de arroz coreanas (Dok Boki)",
+      "image" : "https://www.edamam.com/web-img/fb3/fb3bc87fd98258e3151e4e1604e5db1a.jpg",
+      "url": "http://www.seriouseats.com/recipes/2010/11/seriously-asian-korean-rice-cakes-dok-boki.html",
+      "description": "El pastel de arroz, llamado tteok en coreano, es un plato tradicional muy querido con muchas variaciones. Ningún día de festival, aniversario o celebraciones está completo sin ellos. Son muy masticables y pueden ser un gusto adquirido, pero una vez que te enganches, los anhelarás todo el tiempo.",
+      "servings": 4,
+      "dietLabel": "Bajo-Grasa",
+      "ingredientLines" : [ "6 a 8 palitos de pastel de arroz largos frescos o 20 palitos de pastel de arroz más pequeños "," Para la salsa: "," 3 cucharadas de pasta de ají coreano "," 3 a 4 cucharadas de salsa de soja ligera, según el nivel de sal "," 1 cucharadita azúcar "," 1 cucharadita de vinagre de arroz "," Semillas de sésamo tostadas para decorar" ]
+
+    },
+
+    {
+      "title": "Torta de volcado",
+      "image" : "https://www.edamam.com/web-img/d14/d14cd8ea9dfafe5836f96a6b0f2e6da1.jpg",
+      "url": "http://www.epicurious.com/recipes/member/views/DUMP-CAKE-50059991",
+      "description": "No dejes que el nombre te asuste. Es un postre realmente simple, generalmente hecho con una base de mezcla para pastel + relleno de frutas, donde, fiel a su nombre, puedes verter los ingredientes en una sartén, revolverlo y hornear.",
+      "servings": 12,
+      "dietLabel": "Vegetarian",
+      "ingredientLines" : [ "1 lata (21 oz.) De relleno de pastel de cereza "," 1 lata (15 oz.) De piña triturada "," 1 caja (aproximadamente 18 oz.) De mezcla para pastel amarilla o blanca "," 1 barra de margarina "," ½ barra de mantequilla "," Crema batida" ]
+    },
+
+    {
+      "title": "Galletas de azúcar",
+      "image" : "https://www.edamam.com/web-img/6d3/6d330326a8537689db909a91767595b6.jpg",
+      "url": "http://www.seriouseats.com/recipes/2008/12/sugar-cookies-recipe-gina-depalma-holidays.html",
+      "description": "Servir caliente, cuando esté agradable y masticable, con mermelada o con fresas y nata. Cuando se enfrían y se dejan sin adornos, se convierten en galletas de azúcar crujientes y mantecosas.",
+      "servings": 42,
+      "dietLabel": "Bajo-Sodio",
+      "ingredientLines" : [ "2 1/2 tazas de azucena blanca o harina para pastel "," 2 barras (1 taza) de mantequilla sin sal, ablandada "," 1 1/2 tazas de azúcar "," 1 huevo grande, ligeramente batido "," 1 cucharadita de vainilla" ]
+    },
+
+    {
+      "title": "Albóndigas de pretzel con crema de champiñones rebozuelos",
+      "image" : "https://www.edamam.com/web-img/1d0/1d0075b30ec5fc368ce9ccaf3156462a.jpg",
+      "url": "http://www.deliciousdays.com/archives/2006/10/03/land-of-the-dumplings/",
+      "description": "Un plato cálido y hogareño",
+      "servings": 10,
+      "dietLabel": "Bajo-Carb",
+      "ingredientLines" : [ "200-250 g de pretzels "," 150 ml de leche caliente "," 1 cucharada de mantequilla "," 30 g de tocino, finamente picado "," 1 x cebolla, finamente picada "," 2 x huevos "," Perejil fresco, picado " , "Sal", "Pepp negro recién molido", "Nuez moscada", "1 cucharada de mantequilla para salsa de champiñones rebozuelos cremosos", "1-2 chalotes", "250 g de rebozuelos", "100-200 ml de caldo de verduras" , "100 ml de crema espesa", "2 cucharadas de jerez", "Sal y pimienta negra recién molida", "Cebollino fresco, picado para decorar" ]
+    },
+
+    {
+      "title": "Crema de maíz dulce",
+      "image" : "https://www.edamam.com/web-img/a5a/a5a5a0716d6e7ff4f020c86e546c1013.jpg",
+      "url": "http://www.seriouseats.com/recipes/2010/11/cakespy-creamed-candy-corn-recipe.html",
+      "description": "La lechada de maíz dulce resultante es sin duda uno de esos platos que se encuentra entre lo horrible y lo increíble: es decir, puede que te guste, pero probablemente no se lo confieses a tus amigos amantes de la comida.",
+      "servings": 6,
+      "dietLabel": "Vegetariano",
+      "ingredientLines" :[ "1 taza de crema o mitad y mitad "," 2 cucharadas de mantequilla "," 2 cucharadas de mezcla de pudín de vainilla instantáneo "," 1 bolsa (11 onzas) de maíz dulce" ]
+    },
+
+    {
+      "title": "Cremas de suero de leche con fresas",
+      "image" : "https://www.edamam.com/web-img/af6/af6e66d2d8b8de01a99d7587429223ae.jpg",
+      "url": "http://www.marthastewart.com/314096/buttermilk-creams-with-strawberries",
+      "description": "La crema batida le da a estas natillas sin huevo sin hornear una textura delicada. No se preocupe si la mezcla forma grumos al principio, se unirá con un doblez suave.",
+      "servings": 8,
+      "dietLabel": "Bajo-Sodio",
+      "ingredientLines" : [ "1 1/4 cucharaditas de gelatina sin sabor (de un sobre de 1/4 onza) "," 3/4 taza de azúcar "," 1 taza de suero de leche bajo en grasa "," 1 1/2 tazas de crema espesa "," 1 libra de fresas , descascarado y en cuartos "," 1 cucharadita de jugo de limón fresco" ]
+    }
+  ]
+}

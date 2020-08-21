@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.res.ResourcesCompat
 
@@ -67,13 +68,22 @@ class RecipeAdapter(private val context: Context,
 
         Picasso.with(context).load(recipe.imageUrl).placeholder(R.mipmap.ic_launcher).into(thumbnailImageView)
 
+        val titleTypeFace = ResourcesCompat.getFont(context, R.font.thebomb)
+        titleTextView.typeface = titleTypeFace
+
+        /*val subtitleTextView = ResourcesCompat.getFont(context, R.font.thebomb)
+        subtitleTextView.typeface = titleTypeFace
+        */
+
+        return view
+
     }
 
     private class ViewHolder {
         lateinit var titleTextView: TextView
         lateinit var subtitleTextView: TextView
         lateinit var detailTextView: TextView
-        lateinit var thumbnailImageView: TextView
+        lateinit var thumbnailImageView: ImageView
 
     }
 

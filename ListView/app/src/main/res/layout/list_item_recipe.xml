@@ -15,7 +15,7 @@
         android:layout_marginTop="6dp"
         android:contentDescription="Thumbnail"
         android:scaleType="centerInside"
-        tool:src="@mipmap/ic_launcher" />
+       />
 
     <TextView
         android:id="@+id/recipe_list_detail"
@@ -60,6 +60,6 @@
             android:ellipsize="end"
             android:maxLines="3"
             android:textSize="8dp"
-            android:text="Subtitle"
+            android:text="Subtitle" />
     </RelativeLayout>
 </RelativeLayout>
